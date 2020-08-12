@@ -79,7 +79,7 @@ width rectangles you use, the better this approximation will be.
 For now, let's stick with the simple example of using 10 rectangles. The total
 width of the integral is $3 - -2 = 5$, meaning the width of each individual
 rectangle should be $\frac{5}{10} = 0.5$. The function we're integrating over
-is $$f(x) = -x^2 + 4x + 15$$S.
+is $$f(x) = -x^2 + 4x + 15$$.
 
 The first rectangle starts at $-2$ and, with a width of $0.5$, ends at $-1.5$.
 What would the best value be to use for the height of this first rectangle in

@@ -29,6 +29,7 @@ display the roots in the graph that you calculated.
 * Calculate the roots with use of the [quadratic formula](https://en.wikipedia.org/wiki/Quadratic_formula).
 
     * In what case does this formula indicate there are no (real-valued) roots?
+    * Use [`math.sqrt()`](https://docs.python.org/3/library/math.html#math.sqrt) to calculate the square root of a number. You'll have to `import math` to make this function work!
 
 * To make sure you can show the computed answer neatly, call the function and store the result in a variable, as in the example below:
 

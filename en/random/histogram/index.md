@@ -1,6 +1,6 @@
 # Histogram
 
-Write a program that visualizes the distribution of numbers from the `random`-function:
+Write a program that visualizes the distribution of numbers from the `random()`-function:
 
 ![](../../../assets/HistogramExample.png)
 
@@ -18,16 +18,16 @@ Below you'll find a small program that generates 10.000 random numbers and store
 
     import random
     import matplotlib.pyplot as plt
-    
+
     # list of random numbers
     random_numbers = []
-    
+
     # generate 10.000 random numbers
     n = 10000
     for counter in range(n):
         number = random.random()          
         random_numbers.append(number)
-    
+
      # plot the frequency distribution (50 bins)
      plt.xlim(-0.1, 1.1)
      plt.hist(random_numbers, bins=50)

@@ -1,6 +1,6 @@
 # Riemann sum
 
-*A Riemann sum can be used to approximate the integral of a function using a
+*A Riemann sum can be used to approximate the integral of a equation using a
 finite sum of rectangular areas.*
 
 This page serves simply to introduce the terms and concepts from the sentence
@@ -11,10 +11,10 @@ you can, of course, just skip.
 
 ## Integrals
 
-The integral of some function between the points $a$ and $b$ can be interpreted
-as the total area between the line of the function and the x-axis, or
+The integral of some equation between the points $a$ and $b$ can be interpreted
+as the total area between the line of the equation and the x-axis, or
 informally *the area **under** the curve*, between the points $a$ and $b$.
-The simplest example would be to integrate a linear function, like
+The simplest example would be to integrate a linear equation, like
 $$f(x) = 2x$$, between 0 and 5:
 
 ![](../../../assets/linear.png){: style="max-width:500px;"}
@@ -80,12 +80,12 @@ width rectangles you use, the better this approximation will be.
 
 For now, let's stick with the simple example of using 10 rectangles. The total
 width of the integral is $3 - -2 = 5$, meaning the width of each individual
-rectangle should be $\frac{5}{10} = 0.5$. The function we're integrating over
+rectangle should be $\frac{5}{10} = 0.5$. The equation we're integrating over
 is $$f(x) = -x^2 + 4x + 15$$.
 
 The first rectangle starts at $-2$ and, with a width of $0.5$, ends at $-1.5$.
 What would the best value be to use for the height of this first rectangle in
-the approximation?  Probably the value of function at the *middle* of the
+the approximation?  Probably the value of equation at the *middle* of the
 rectangle, so $f(-1.75)$, which would be $-(-1.75)^2 + 4 \cdot -1.75 + 15 \approx
 4.94$. The area of this rectangle can now very easily be computed of course,
 using the width of $0.5$, so $4.94 \cdot 0.5 = 2.47$.

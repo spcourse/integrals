@@ -1,7 +1,7 @@
 # Roots
 
 Write a program that calculates and shows the roots (the locations where
-a function intersects the x-axis) of the quadratic function $$f(x)=x^2+2x-10$$.
+a equation intersects the x-axis) of the quadratic equation $$f(x)=x^2+2x-10$$.
 
     # python roots.py
     The roots are -4.32 and 2.32
@@ -14,14 +14,14 @@ a function intersects the x-axis) of the quadratic function $$f(x)=x^2+2x-10$$.
 * Call your program `roots.py`.
 
 * Create one function `roots(a, b, c)` that can calculate the roots of *any*
-quadratic function of the form $$f(x)=ax^2+bx+c$$. There are two possible
+quadratic equation of the form $$f(x)=ax^2+bx+c$$. There are two possible
 results the function could `return`:
 
-    * an empty list `[]` when the function has no roots
-    * a list of two elements `[n1, n2]` in which `n1` and `n2` are the roots of the function
+    * an empty list `[]` when the equation has no roots
+    * a list of two elements `[n1, n2]` in which `n1` and `n2` are the roots of the equation
 
 * Your programs should then use this `roots()` function to calcuate the roots
-for $$f(x)=x^2+2x-10$$. Print out both roots, plot this function and clearly
+for $$f(x)=x^2+2x-10$$. Print out both roots, plot the equation and clearly
 display the roots in the graph that you calculated.
 
 ## Hints
@@ -34,9 +34,9 @@ display the roots in the graph that you calculated.
 
         result = roots(1, 2, -10)
 
-* Later on also test your program with a quadratic function that has no roots (check if the list is empty). The program should print that the roots do not exist:
+* Later on also test your program with a quadratic equation that has no roots (check if the list is empty). The program should print that the roots do not exist:
 
-        This function does not have roots.
+        This equation does not have roots.
 
 ## Testing
 

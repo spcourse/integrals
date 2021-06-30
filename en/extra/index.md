@@ -15,7 +15,7 @@ To get a better understanding of the math behind a fractal, we must first introd
 Complex numbers maintain a special place in math and can be found in many subject in mathematics as well as physics. During the lectures you'll get to see many more characteristics, but here we introduce the bare minimum.
 
    - definition: we define $$ i = \sqrt{-1}$$
-   
+
 A complex number (z) is made up out of two components: a real and an imaginary part.
 
    - complex number: z = $$\alpha + \beta i$$
@@ -37,20 +37,20 @@ For example: $$(2+i)^2 = 3+4i$$. If you were to add the original number $$(2+i)$
 This is all of the mathematical background on complex numbers you'll be needing for this assignment. Now we can get to work.
 
 
-### Functions for complex numbers, sequences and fractals
+### Equations for complex numbers, sequences and fractals
 
-Just like for normal numbers, functions can be defined for complex numbers too. In this assignment we'll work with polynomials like the following one:
+Just like for normal numbers, equations can be defined for complex numbers too. In this assignment we'll work with polynomials like the following one:
 
-   $$f(z) = z^2 + c$$ 
+   $$f(z) = z^2 + c$$
 
-, in which both $$z$$ and $$c$$ are complex numbers. The only freedom we have left is the choice in the value of the number $$c$$. The outcome of the function is once again a complex number.
+, in which both $$z$$ and $$c$$ are complex numbers. The only freedom we have left is the choice in the value of the number $$c$$. The outcome of the equation is once again a complex number.
 
 **Sequences:**
 
-By feeding back the outcome of the operation (function) as an argument into the function itself we're given a sequence of numbers.
+By feeding back the outcome of the operation (equation) as an argument into the function we're given a sequence of numbers.
 
    - step 1: choose a complex number $$z_0$$
-   
+
    - step 2: calculate $$f(z_0) = z_0^2 + c$$. We call this number $$z_1$$.   
 
    - step 3: calculate $$f(z_1) = z_1^2 + c$$. We call this number $$z_2$$.   
@@ -72,12 +72,12 @@ By subsequently assigning a color code to the speed with which a specific starti
 
 **The Mandelbrot set:**
 
- 
+
 The Mandelbrot set is defined by a function we've already seen before, with a special choice for constant $$c$$. The starting point itself to be precise. $$c = z_0$$ should then give:
-    
-   Mandelbrot: $$f(z) = z^2 + z_0$$ 
-    
-, in which $$z_0$$ is the starting point. 
+
+   Mandelbrot: $$f(z) = z^2 + z_0$$
+
+, in which $$z_0$$ is the starting point.
 
 For any particular starting point the sequence can diverge or converge. As an example of both cases, you will find the first 10 points in the sequence for the two starting points $$z$$ (= $$z_0$$) = $$-0.20 + 0.25i$$ and $$z$$ (= $$z_0$$) = $$0.50 + 0.25i$$.
 
@@ -97,12 +97,12 @@ For any particular starting point the sequence can diverge or converge. As an ex
 
 Now it's time to draw a fractal for yourself.
 
-### Assignment: 
+### Assignment:
 
 Create a program called `fractal.py` and determine for each point $$z_0$$ in the complex field whether the sequence converges or diverges for the polynomial of the Mandelbrot set:
 
-   $$f(z) = z^2 + z_0$$. 
-    
+   $$f(z) = z^2 + z_0$$.
+
 If the sequence converges you should draw the point in blue, else if it diverges you have to draw the point in white.
 
 Although you'll have to determine which definition of convergence for yourself in this assignment, the speed with which this happens will be ignored in this assignment. As a result the plot will only consist of two colors. Somewhat more boring than the official plot of course, but plenty challenging enough for this assignment.
@@ -111,9 +111,9 @@ Although you'll have to determine which definition of convergence for yourself i
 
 The resolution of the graph needs to have the following dimensions:
 
-    - real axis:      600 points between -2.00 and 1.00 
+    - real axis:      600 points between -2.00 and 1.00
 
-    - imaginary axis: 600 points between -1.50 and 1.50 
+    - imaginary axis: 600 points between -1.50 and 1.50
 
 
 If you've finished the assignment early you can opt to add more color to your plot. Take into account the speed of divergence and let that added bit of information influence the color of a point. Have fun!

@@ -1,9 +1,6 @@
 # Histogram
 
-Write a program that visualizes the distribution of numbers from the `random()`-function:
-
-![](../../../assets/HistogramExample.png)
-
+Write a program that visualizes the distribution of numbers from the `random()`-function.
 
 ## Background
 
@@ -36,6 +33,10 @@ Below you'll find a small program that generates 10.000 random numbers and store
 In Python you can use the option `plt.hist()` to group data before showing it with `plt.show()`. When grouping data together, give some thought to how many bins you want to use to divide your data.
 
 The extra option `xlim` is used to show that no numbers are generated outside of the interval 0.00-1.00. Look up the documentation on the web which options are available to design a histogram that are relevant to you: number of bins, color, axis labels, legend, text and much more.
+
+The result of the code is the histogram displayed below:
+
+![](../../../assets/HistogramExample.png)
 
 ## Assignment: distribution of the sum of random numbers
 

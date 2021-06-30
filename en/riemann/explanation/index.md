@@ -11,9 +11,9 @@ you can, of course, just skip.
 
 ## Integrals
 
-The integral of some equation between the points $a$ and $b$ can be interpreted
+The integral of some equation between the points $d$ and $e$ can be interpreted
 as the total area between the line of the equation and the x-axis, or
-informally *the area **under** the curve*, between the points $a$ and $b$.
+informally *the area **under** the curve*, between the points $d$ and $e$.
 The simplest example would be to integrate a linear equation, like
 $$f(x) = 2x$$, between 0 and 5:
 
@@ -26,8 +26,8 @@ Formally, this integral would be written as
 
 $$\int_{0}^5 2x~dx = 25$$
 
-where $\int$ is the integral symbol, with the lower bound ($a$) written at the
-bottom of the symbol and upper bound ($b$) written at the top. The $dx$
+where $\int$ is the integral symbol, with the lower bound ($d$) written at the
+bottom of the symbol and upper bound ($e$) written at the top. The $dx$
 indicates that $x$ is the variable we are integrating over.
 
 However, not every integral is so straightforward to solve. Take, for example,
@@ -104,11 +104,11 @@ where $$\sum$$ is the summation symbol, adding all the different values for the
 summation index ($i$), starting from the lower bound ($i=0$) up to and
 including the upper bound ($9$).
 
-More generally, if we divide any integral from $a$ to $b$, into $$N$$
-rectangles, then the width of each rectangle will be $$\Delta x = \frac{b -
-a}{N}$$. The approximation for the integral then becomes
+More generally, if we divide any integral from $d$ to $e$, into $$N$$
+rectangles, then the width of each rectangle will be $$\Delta x = \frac{e -
+d}{N}$$. The approximation for the integral then becomes
 
-$$\int_{a}^b f(x)~dx \approx \sum_{i=0}^{N-1} \Delta x~ f(a +\Delta x(i +
+$$\int_{d}^e f(x)~dx \approx \sum_{i=0}^{N-1} \Delta x~ f(d +\Delta x(i +
 \frac{1}{2}))$$
 
 which is the midpoint Riemann sum approximation.

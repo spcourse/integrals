@@ -5,8 +5,7 @@ quadratic equation within specified boundaries, i.e.
 
 $$\int_{d}^e (a x^2 + bx + c)~dx$$
 
-Here, the values $a$, $b$, and $c$ define the quadratic equation, while the parameters $d$ and $e$ indicate the lower and upper bound of the integral
-respectively.
+Here, the values $a$, $b$, and $c$ define the quadratic equation, while the parameters $d$ and $e$ indicate the lower and upper bound of the integral respectively.
 
 The program should print out the approximated integral and a plot of the
 quadratic equation should also be displayed on the screen.
@@ -20,8 +19,8 @@ quadratic equation should also be displayed on the screen.
     * The function `riemann()` has to accept 6 arguments:
 
         - `a`, `b`, and `c`, the parameters of the quadratic equation
-        - `d` start of the integral area
-        - `e` end of the integral area
+        - `d` is the start of the integral area
+        - `e` is the end of the integral area
         - `n` number of rectangles used to approximate the integral
 
     * The function `riemann()` should plot the quadratic equation on the screen.

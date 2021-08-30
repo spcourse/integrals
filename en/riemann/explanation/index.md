@@ -6,7 +6,7 @@ finite sum of rectangular areas.*
 This page serves simply to introduce the terms and concepts from the sentence
 above, some of which you may already be familiar with. The goal is for you to
 come away with enough understanding to implement a Riemann sum approximation in
-the next assignment. Any topic you don't need an introduction or refesher on,
+the next assignment. Any topic you don't need an introduction or refresher on,
 you can, of course, just skip.
 
 ## Integrals
@@ -27,7 +27,7 @@ Formally, this integral would be written as
 $$\int_{0}^5 2x~dx = 25$$
 
 where $\int$ is the integral symbol, with the lower bound ($d$) written at the
-bottom of the symbol and upper bound ($e$) written at the top. The $dx$
+bottom of the symbol and the upper bound ($e$) written at the top. The $dx$
 indicates that $x$ is the variable we are integrating over.
 
 However, not every integral is so straightforward to solve. Take, for example,
@@ -39,8 +39,8 @@ where we can no longer use the area of a triangle to solve the problem.
 ![](../../../assets/quadratic.png){: style="max-width:500px;"}
 
 If you've ever taken a calculus course, you will have probably learned how to
-analytically solve such integrals *exactly*. This assignment will **not**
-about these analytical solutions, but instead letting the computer do the
+analytically solve such integrals *exactly*. This assignment will **not** revolve
+around these analytical solutions, but instead lets the computer do the
 work to *approximate* an integral. There are quite a few different ways you can
 leverage the computational power of a computer to approximate an integral, the
 most well known of which is a Riemann sum.
@@ -85,9 +85,9 @@ is $$f(x) = -x^2 + 4x + 15$$.
 
 The first rectangle starts at $-2$ and, with a width of $0.5$, ends at $-1.5$.
 What would the best value be to use for the height of this first rectangle in
-the approximation?  Probably the value of equation at the *middle* of the
+the approximation? Probably the value of the equation at the *middle* of the
 rectangle, so $f(-1.75)$, which would be $-(-1.75)^2 + 4 \cdot -1.75 + 15 \approx
-4.94$. The area of this rectangle can now very easily be computed of course,
+4.94$. The area of this rectangle can now very easily be computed, of course, by
 using the width of $0.5$, so $4.94 \cdot 0.5 = 2.47$.
 
 This process can be repeated for all 10 rectangles, and summed together to get

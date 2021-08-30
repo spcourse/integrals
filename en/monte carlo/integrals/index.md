@@ -1,6 +1,6 @@
 # Monte Carlo
 
-Write a function that, by way of the Monte Carlo method, calculates the integral of any mathematical equation with specified integral boundaries. Take care that both the equation as well as the generated random points (both the 'correct' and 'incorrect' ones) are displayed on the screen.
+Write a function that, by way of the Monte Carlo method, calculates the integral of any mathematical equation with specified integral boundaries. Take care that both the equation and the generated random points (both the 'correct' and 'incorrect' ones) are displayed on the screen.
 
 ## Specification
 
@@ -20,7 +20,7 @@ Write a function that, by way of the Monte Carlo method, calculates the integral
 
 * The function `montecarlo()` should `return` the area under the graph.
 
-* The function `montecarlo()` should plot the equation and the points *within* the integral area (the 'correct' points) in green and the point *outside of* the integral area (the 'incorrect' points) in red.
+* The function `montecarlo()` should plot the equation and the points *within* the integral area (the 'correct' points) in green and the points *outside of* the integral area (the 'incorrect' points) in red.
 
 ## Functions as arguments
 
@@ -57,7 +57,7 @@ Add these equations as functions to your own program and make sure to call `mont
 
 * Also create a graph with red and green points like in the example in the theory section. Should you have made a mistake in your logic, you can immediately see it in the graph, instead of having to spend hours looking at your code to find the bug.
 
-* Think carefully how to deal with parts of the integral area that are situated below the x-axis.
+* Think carefully about how to deal with parts of the integral area that are situated below the x-axis.
 
 	* When encountered with 'negative integral areas' you can split the areas.
 

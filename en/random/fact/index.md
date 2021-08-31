@@ -4,11 +4,11 @@ Write a function that determines the average number of random numbers (uniformly
 
 Use the following strategy:
 
-*   Generate random numbers, counting how long it takes for the sum to become larger than 1. Use a `while` loop to achieve this
+*   Generate random numbers, counting how long it takes for the sum to become larger than 1. Use a `while` loop to achieve this.
 
-*   Repeat this whole counting process a large number of times (N = million)
+*   Repeat this whole counting process a large number of times (N = million).
 
-*   Determine the average number of required random numbers and display that count
+*   Determine the average number of required random numbers and display that count.
 
 ### Specification
 

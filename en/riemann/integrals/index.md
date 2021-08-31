@@ -50,11 +50,11 @@ examples.
 
 Does there appear to be some error or bug?
 
-* Visually check the graph of the integral whether the answer is anywhere near what is to be expected.
+* Visually check in the graph of the integral whether the answer is anywhere near what is to be expected.
 
 * If that appears to be the case, then it could be possible that the number of steps is too small to come to an exact enough answer. Try again after increasing the number of steps (or, rectangles) and see how that influences the outcome.
 
 ## Testing
-Once you convinced yourself it worked you can use checkpy to run some automatic tests.
+Once you have convinced yourself it works, you can use checkpy to run some automatic tests.
 
 	checkpy riemann

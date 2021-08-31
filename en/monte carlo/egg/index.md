@@ -19,7 +19,7 @@ Your program consists of three parts:
 
 ## Hints
 
-Estimating this area can of course be done with a method very similar to Monte Carlo integration. Some
+Estimating this area can, of course, be done with a method very similar to Monte Carlo integration. Some
 quick questions to consider if your answers seem incorrect:
 
 * What is the difference between the area calculation here and integration?
@@ -28,4 +28,4 @@ quick questions to consider if your answers seem incorrect:
 
 * What would be a sensible surrounding area to use for the egg?
 
-    * How could determine some sensible values to use as bounds?
+    * How could you determine some sensible values to use as bounds?

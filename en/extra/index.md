@@ -1,18 +1,18 @@
 # Fractals - Mandelbrot set
 
-You probably already know those beautiful multi-colored pictures in which patterns repeat themselves until they are infinitely small. These incredibly complex patterns, called *fractals*, funnily enough are product of a small set of simple (mathematical) rules. Often times in nature do we find such simple hidden mechanisms for complex phenomena, however hard they are to find out about. In this assignment we delve a little deeper into the math behind fractals and with that knowledge we'll try to recreate one of the most well-known fractals: the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
+You probably already know those beautiful multi-colored pictures in which patterns repeat themselves until they are infinitely small. These incredibly complex patterns, called *fractals*, funnily enough are the product of a small set of simple (mathematical) rules. Often times in nature do we find such simple hidden mechanisms for complex phenomena, however hard they are to find out about. In this assignment, we delve a little deeper into the math behind fractals and with that knowledge we'll try to recreate one of the most well-known fractals: the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
 
 <p align="center">
 ![](../../assets/mandelbrot.png){: style="width:50%"}
 </p>
 
-The goal of this extra assignment is: write a program `fractal.py` that displays the Mandelbrot set on the screen.
+The goal of this extra assignment is to write a program `fractal.py` that displays the Mandelbrot set on the screen.
 
 ### Mathematical intermezzo: complex numbers
 
 To get a better understanding of the math behind a fractal, we must first introduce a new mathematical concept: *complex numbers*.
 
-Complex numbers maintain a special place in math and can be found in many subject in mathematics as well as physics. During the lectures you'll get to see many more characteristics, but here we introduce the bare minimum.
+Complex numbers maintain a special place in math and can be found in many subjects in mathematics as well as physics. During the lectures you'll get to see many more characteristics, but here we introduce the bare minimum.
 
    - definition: we define $$ i = \sqrt{-1}$$
 

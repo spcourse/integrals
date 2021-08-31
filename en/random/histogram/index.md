@@ -4,7 +4,7 @@ Write a program that visualizes the distribution of numbers from the `random()`-
 
 ## Background
 
-Plotting a graph of a function, like in the last module, is one of the many ways of visualizing data. This is not always the most obvious strategy however. When the Volkskrant, for example, makes a graph of how tall the Dutch people are, they use a so-called `histogram` (also known as a bar chart or frequency distribution) in which the data gets grouped together. People, for instance, would be grouped together in percentages of people with lengths ranging from 165-170, 170-175 and so on. The way to represent data also gives some insight in how different groups relate.
+Plotting a graph of a function, like in the last module, is one of the many ways of visualizing data. This is not always the most obvious strategy, however. When the Volkskrant, for example, makes a graph of how tall the Dutch people are, they use a so-called `histogram` (also known as a bar chart or frequency distribution) in which the data gets grouped together. People, for instance, would be grouped together in percentages of people with lengths ranging from 165-170, 170-175, and so on. This way to represent data also gives some insight in how different groups relate.
 
 
 ## Example: 10.000 random numbers
@@ -44,9 +44,9 @@ We've now seen that random numbers are properly generated uniformly between 0 an
 
 Write a function `sum_random_numbers()` that displays the distribution of the sum of 100 random numbers from 10.000 experiments. Graph the results between x = 30 and x = 70.
 
-Generate for each 'experiment' 100 random numbers and calculate the sum of those numbers. Repeat this 10.000 times and store for each of the experiments the sum in a list. In the end plot those values in a frequency distribution (histogram). Also `print` to the screen the percentage of the experiments in which the sum was respectively less than 40 and more than 60.
+Generate 100 random numbers for each 'experiment' and calculate the sum of those numbers. Repeat this 10.000 times and store the sum in a list for each of the experiments. In the end, plot those values in a frequency distribution (histogram). Also, `print` the percentage of the experiments in which the sum was respectively less than 40 and more than 60 to the screen.
 
-> Note: `print` the percentage < 40 on one line and the percentage > 60 on the next line. `Print` not only the percentage but also explain exactly what kind of number it is.
+> Note: `print` the percentage < 40 on one line and the percentage > 60 on the next line. Do not only `print` the percentage, but also explain exactly what kind of number it is.
 
 
 ## Testing

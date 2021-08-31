@@ -1,7 +1,7 @@
 # Roots
 
 Write a program that calculates and shows the roots (the locations where
-a equation intersects the x-axis) of the quadratic equation $$f(x)=x^2+2x-10$$.
+an equation intersects the x-axis) of the quadratic equation $$f(x)=x^2+2x-10$$.
 
     # python roots.py
     The roots are -4.32 and 2.32
@@ -35,13 +35,13 @@ display the roots in the graph that you calculated.
 
         result = roots(1, 2, -10)
 
-* Later on also test your program with a quadratic equation that has no roots (check if the list is empty). The program should print that the roots do not exist:
+* Later on, also test your program with a quadratic equation that has no roots (check if the list is empty). The program should print that the roots do not exist:
 
         This equation does not have roots.
 
 ## Testing
 
-If you use `checkpy`, note that it does not check if you program has the correct output. It does check if the function `roots()` returns the correct result.
+If you use `checkpy`, note that it does not check if your program has the correct output. It does check if the function `roots()` returns the correct result.
 
     checkpy roots
 

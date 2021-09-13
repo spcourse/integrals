@@ -1,9 +1,10 @@
 # Monte Carlo
 
-It is possible to approximate an integral by using random numbers.
+It is possible to approximate an integral by using random numbers. In the following video the main principles of Monte Carlo simulation are explained. 
 
-![embed](https://player.vimeo.com/video/138378068)
+![embed](https://www.youtube.com/embed/7ESK5SaP-bc)
 
+We will be applying Monte Carlo simulation to determine the integral area of a function between two limits. The process can be defined as follows:
 
 1.  Define a rectangle that surrounds the integral area
 

@@ -16,7 +16,7 @@ quadratic equation should also be displayed on the screen.
 
 * Declare a function called `riemann()` that can calculate integrals using the Riemann sum.
 
-    * The function `riemann()` has to accept 6 arguments:
+    * The function `riemann()` has to accept 6 arguments, in order `(a, b, c, d, e, n)`:
 
         - `a`, `b`, and `c`, the parameters of the quadratic equation
         - `d` is the start of the integral area

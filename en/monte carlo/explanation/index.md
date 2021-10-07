@@ -1,10 +1,15 @@
 # Monte Carlo
 
-It is possible to approximate an integral by using random numbers. In the following video the main principles of Monte Carlo simulation are explained. 
+It is possible to approximate an integral by using random numbers. In the following video the main principles of Monte Carlo simulation are explained.
 
 ![embed](https://www.youtube.com/embed/7ESK5SaP-bc)
 
-We will be applying Monte Carlo simulation to determine the integral area of a function between two limits. The process can be defined as follows:
+We will be applying Monte Carlo simulation to determine the integral area of a function between two limits. The following video explains the process:
+
+![embed](https://api.eu.kaltura.com/p/120/sp/12000/embedIframeJs/uiconf_id/23449960/partner_id/120?iframeembed=true&playerId=kaltura_player&entry_id=0_t25rc4ue&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en_US&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[hotspots.plugin]=1&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_9p4uqxuc)
+
+
+To summarize, numerical integration with Monte Carlo simulation can be defined as follows:
 
 1.  Define a rectangle that surrounds the integral area
 

@@ -44,7 +44,7 @@ We've now seen that random numbers are properly generated uniformly between 0 an
 
 Write a function `sum_random_numbers()` that displays the distribution of the sum of 100 random numbers from 10.000 experiments. Graph the results between x = 30 and x = 70.
 
-Generate 100 random numbers for each 'experiment' and calculate the sum of those numbers. Repeat this 10.000 times and store the sum in a list for each of the experiments. In the end, plot those values in a frequency distribution (histogram). Also, `print` the percentage of the experiments in which the sum was respectively less than 40 and more than 60 to the screen.
+Generate 100 random numbers for each 'experiment' and calculate the sum of those numbers. Repeat this 10.000 times and store the sum in a list for each of the experiments. In the end, plot those values in a frequency distribution (histogram). Also, `print` the percentage of the experiments in which the sum was less than 40 to the screen, as well as the percentage of experiments in which the sum was more than 60 to the screen.
 
 > Note: `print` the percentage < 40 on one line and the percentage > 60 on the next line. Do not only `print` the percentage, but also explain exactly what kind of number it is.
 

@@ -119,10 +119,10 @@ indicates that $x$ is the variable we are integrating over.
 - $\sum_{i=0}^{N-1} \Delta x~ f(d +\Delta x(i + \frac{1}{2}))$ the sum of the areas of all $N$ rectangles, where $i$ defines the i-th rectangle
   - Area is defined as $width * height$
   - $\Delta x~$ is the width of the rectangle
-  - $f(d +\Delta x(i + \frac{1}{2}))$ defines the value of the function $f$ on the location of the middle of the i-th rectangle, which is the height!
-    - $d +\Delta x(i + \frac{1}{2})$ defines the location (value of $x$) of the middle of the i-th rectangle
+  - $f(d +\Delta x~(i + \frac{1}{2}))$ defines the value of the function $f$ on the location of the middle of the i-th rectangle, which is the height!
+    - $d +\Delta x~(i + \frac{1}{2})$ defines the location (value of $x$) of the middle of the i-th rectangle
       - $d$ is the left boundary from which we start creating rectangles
-      - $\Delta (i + \frac{1}{2})$ defines how many times we should shift half the width of a rectangle from our offset $d$, for rectangle 0 this is 0.5, for rectangle 1 this is 1.5, etc. 
+      - $\Delta x~(i + \frac{1}{2})$ defines how many times we should shift half the width of a rectangle from our offset $d$, for rectangle 0 this is 0.5, for rectangle 1 this is 1.5, etc. 
 
 The larger value of $N$ you use, the better this approximation will be.
 Computing 10 rectangles by hand is already quite tedious, but using the

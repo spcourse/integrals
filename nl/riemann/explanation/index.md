@@ -6,21 +6,21 @@ Deze pagina is bedoeld om de concepten uit de bovenstaande zin te introduceren. 
 
 ## Integralen
 
-De integraal van een functie tussen de punten $a$ en $b$ kan worden geïnterpreteerd als het totale oppervlakte tussen de lijn van de functie en de x-as, tussen de punten $a$ en $b$.
+De integraal van een functie tussen de punten $$a$$ en $$b$$ kan worden geïnterpreteerd als het totale oppervlakte tussen de lijn van de functie en de x-as, tussen de punten $$a$$ en $$b$$.
 
 Het simpelste voorbeeld is de integraal van een lineaire functie, zoals $$f(x) = 2x$$, tussen 0 en 5:  
 
 ![](../../../assets/linear.png){: style="max-width:500px;"}
 
-De oppervlakte hier wordt gegeven door de ingekleurde driehoek. Hiervan is het heel eenvoudig te brekenen als $25$.
+De oppervlakte hier wordt gegeven door de ingekleurde driehoek. Hiervan is het heel eenvoudig te brekenen als $$25$$.
 
 Formeel schrijven we deze integraal als:
 
 $$\int_{0}^5 2x~dx = 25$$
 
-waar $\int$ het integraalsymbool is met de de ondergrens ($0$) als subscript en de bovengrens $5$ als superscript. De $dx$ geeft aan dat we over de $x$-as integreren.
+waar $$\int$$ het integraalsymbool is met de ondergrens ($$0$$) als subscript en de bovengrens $$5$$ als superscript. De $$dx$$ geeft aan dat we over de $$x$$-as integreren.
 
-Niet elke integraal is zo makkelijk te brekenen. Bijvoorbeeld:
+Niet elke integraal is zo makkelijk te berekenen. Bijvoorbeeld:
 
 $$\int_{-2}^3 (-x^2 + 4x + 15)~dx$$
 
@@ -38,7 +38,7 @@ $$\int_{-2}^3 (-x^2 - 8x + 8)~dx$$
 
 ![](../../../assets/negative.png){: style="max-width:500px;"}
 
-Hier is al het rode gebied negatief oppervlak. Het totale blauwe oppervlak is ongeveer $33.05$ en het totale rode oppervlak is ongeveer $-24.72$. De totale integraal is dus ongeveer $8.33$.
+Hier is al het rode gebied negatief oppervlak. Het totale blauwe oppervlak is ongeveer $$33.05$$ en het totale rode oppervlak is ongeveer $$-24.72$$. De totale integraal is dus ongeveer $$8.33$$.
 
 ## Riemannsom
 

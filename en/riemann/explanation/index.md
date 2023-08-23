@@ -11,24 +11,24 @@ you can, of course, just skip.
 
 ## Integrals
 
-The integral of some equation between the points $d$ and $e$ can be interpreted
+The integral of some equation between the points $$d$$ and $$e$$ can be interpreted
 as the total area between the line of the equation and the x-axis, or
-informally *the area **under** the curve*, between the points $d$ and $e$.
+informally *the area **under** the curve*, between the points $$d$$ and $$e$$.
 The simplest example would be to integrate a linear equation, like
 $$f(x) = 2x$$, between 0 and 5:
 
 ![](../../../assets/linear.png){: style="max-width:500px;"}
 
 The area under the curve here can just be calculated by computing the area of
-the highlighted triangle, which is easy enough to do, and comes out to $25$.
+the highlighted triangle, which is easy enough to do, and comes out to $$25$$.
 
 Formally, this integral would be written as
 
 $$\int_{0}^5 2x~dx = 25$$
 
-where $\int$ is the integral symbol, with the lower bound ($d$) written at the
-bottom of the symbol and the upper bound ($e$) written at the top. The $dx$
-indicates that $x$ is the variable we are integrating over.
+where $$\int$$ is the integral symbol, with the lower bound ($$d$$) written at the
+bottom of the symbol and the upper bound ($$e$$) written at the top. The $$dx$$
+indicates that $$x$$ is the variable we are integrating over.
 
 However, not every integral is so straightforward to solve. Take, for example,
 
@@ -56,8 +56,8 @@ $$\int_{-2}^3 (-x^2 - 8x + 8)~dx$$
 ![](../../../assets/negative.png){: style="max-width:500px;"}
 
 where all of the area highlighted in red counts as negative area. The total
-blue area is approximately $33.05$ and the red area is approximately $-24.72$,
-which means the total integral works out to be about $8.33$.
+blue area is approximately $$33.05$$ and the red area is approximately $$-24.72$$,
+which means the total integral works out to be about $$8.33$$.
 
 ## Riemann sum
 
@@ -79,16 +79,16 @@ areas will approximate the actual integral. In fact, the more of these equal
 width rectangles you use, the better this approximation will be.
 
 For now, let's stick with the simple example of using 10 rectangles. The total
-width of the integral is $3 - -2 = 5$, meaning the width of each individual
-rectangle should be $\frac{5}{10} = 0.5$. The equation we're integrating over
+width of the integral is $$3 - -2 = 5$$, meaning the width of each individual
+rectangle should be $$\frac{5}{10} = 0.5$$. The equation we're integrating over
 is $$f(x) = -x^2 + 4x + 15$$.
 
-The first rectangle starts at $-2$ and, with a width of $0.5$, ends at $-1.5$.
+The first rectangle starts at $$-2$$ and, with a width of $$0.5$$, ends at $$-1.5$$.
 What would the best value be to use for the height of this first rectangle in
 the approximation? Probably the value of the equation at the *middle* of the
-rectangle, so $f(-1.75)$, which would be $-(-1.75)^2 + 4 \cdot -1.75 + 15 \approx
-4.94$. The area of this rectangle can now very easily be computed, of course, by
-using the width of $0.5$, so $4.94 \cdot 0.5 = 2.47$.
+rectangle, so $$f(-1.75)$$, which would be $$-(-1.75)^2 + 4 \cdot -1.75 + 15 \approx
+4.94$$. The area of this rectangle can now very easily be computed, of course, by
+using the width of $$0.5$$, so $$4.94 \cdot 0.5 = 2.47$$.
 
 This process can be repeated for all 10 rectangles, and summed together to get
 the complete approximation. So, a little more formally, we would write
@@ -101,10 +101,10 @@ $$\begin{align*}
 \end{align*}$$
 
 where $$\sum$$ is the summation symbol, adding all the different values for the
-summation index ($i$), starting from the lower bound ($i=0$) up to and
-including the upper bound ($9$).
+summation index ($$i$$), starting from the lower bound ($$i=0$$) up to and
+including the upper bound ($$9$$).
 
-More generally, if we divide any integral from $d$ to $e$, into $$N$$
+More generally, if we divide any integral from $$d$$ to $$e$$, into $$N$$
 rectangles, then the width of each rectangle will be $$\Delta x = \frac{e -
 d}{N}$$. The approximation for the integral then becomes
 
@@ -113,20 +113,20 @@ $$\int_{d}^e f(x)~dx \approx \sum_{i=0}^{N-1} \Delta x~ f(d +\Delta x(i +
 
 which is the midpoint Riemann sum approximation. Repeated in more detail:
 
-- $\int_{d}^e f(x)~dx$ is the mathematical definition of the area under the function $f$ betweeen $d$ and $e$. The $dx$
-indicates that $x$ is the variable we are integrating over.
-- $\approx$ which is approximated by
-- $\sum_{i=0}^{N-1} \Delta x~ f(d +\Delta x(i + \frac{1}{2}))$ the sum of the areas of all $N$ rectangles, where $i$ defines the i-th rectangle
-  - The area of a square is defined as $width * height$
-  - $\Delta x~$ is the **width** of the rectangle
-  - $f(d +\Delta x~(i + \frac{1}{2}))$ defines the value of the function $f$ on the location of the middle of the i-th rectangle, which is the **height** of our rectangle!
-    - $d +\Delta x~(i + \frac{1}{2})$ defines the location (value of $x$) of the middle of the i-th rectangle
-      - $d$ is the left boundary from which we start creating rectangles
-      - $\Delta x~(i + \frac{1}{2})$ defines how many times we should shift half the width of a rectangle from our offset $d$, for rectangle 0 this is 0.5, for rectangle 1 this is 1.5, etc. 
+- $$\int_{d}^e f(x)~dx$$ is the mathematical definition of the area under the function $$f$$ betweeen $$d$$ and $$e$$. The $$dx$$
+indicates that $$x$$ is the variable we are integrating over.
+- $$\approx$$ which is approximated by
+- $$\sum_{i=0}^{N-1} \Delta x~ f(d +\Delta x(i + \frac{1}{2}))$$ the sum of the areas of all $$N$$ rectangles, where $$i$$ defines the i-th rectangle
+  - The area of a square is defined as $$width * height$$
+  - $$\Delta x~$$ is the **width** of the rectangle
+  - $$f(d +\Delta x~(i + \frac{1}{2}))$$ defines the value of the function $$f$$ on the location of the middle of the i-th rectangle, which is the **height** of our rectangle!
+    - $$d +\Delta x~(i + \frac{1}{2})$$ defines the location (value of $$x$$) of the middle of the i-th rectangle
+      - $$d$$ is the left boundary from which we start creating rectangles
+      - $$\Delta x~(i + \frac{1}{2})$$ defines how many times we should shift half the width of a rectangle from our offset $$d$$, for rectangle 0 this is 0.5, for rectangle 1 this is 1.5, etc.
 
-The larger value of $N$ you use, the better this approximation will be.
+The larger value of $$N$$ you use, the better this approximation will be.
 Computing 10 rectangles by hand is already quite tedious, but using the
-computer we can compute $10000$ rectangles almost instantly, making the
+computer we can compute $$10000$$ rectangles almost instantly, making the
 approximation really accurate.
 
 **Note:** As mentioned at the end of the section on integrals, any area below

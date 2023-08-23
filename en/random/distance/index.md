@@ -15,7 +15,7 @@ This is a classic example of a clear and apparently simple problem, which is dif
 
 * The name of the program should be `distance.py`.
 
-* Declare a function `square(n)` that takes a number `n`, the number of iterations, as a parameter, and returns the average distance between two random points in a $1 \times 1$ square.
+* Declare a function `square(n)` that takes a number `n`, the number of iterations, as a parameter, and returns the average distance between two random points in a $$1 \times 1$$ square.
 
 
 ## Problem analysis

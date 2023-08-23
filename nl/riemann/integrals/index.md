@@ -4,7 +4,7 @@ Schrijf een functie die met behulp van een Riemann-som de integraal berekent van
 
 $$\int_{d}^e (a x^2 + bx + c)~dx$$
 
-Hier definiëren de waardes $a$, $b$ en $c$ de kwadratische functie. De parameters $d$ en $e$ respectievelijk de onder- en bovengrens van de integraal definiëren.
+Hier definiëren de waardes $$a$$, $$b$$ en $$c$$ de kwadratische functie. De parameters $$d$$ en $$e$$ respectievelijk de onder- en bovengrens van de integraal definiëren.
 
 Het programma moet zowel de benadering van de integraal printen als de kwadratische functie plotten.
 

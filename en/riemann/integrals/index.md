@@ -5,7 +5,7 @@ quadratic equation within specified boundaries, i.e.
 
 $$\int_{d}^e (a x^2 + bx + c)~dx$$
 
-Here, the values $a$, $b$, and $c$ define the quadratic equation, while the parameters $d$ and $e$ indicate the lower and upper bound of the integral respectively.
+Here, the values $$a$$, $$b$$, and $$c$$ define the quadratic equation, while the parameters $$d$$ and $$e$$ indicate the lower and upper bound of the integral respectively.
 
 The program should print out the approximated integral and a plot of the
 quadratic equation should also be displayed on the screen.

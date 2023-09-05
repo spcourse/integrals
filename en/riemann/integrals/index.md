@@ -16,16 +16,22 @@ quadratic equation should also be displayed on the screen.
 
 * Declare a function called `riemann()` that can calculate integrals using the Riemann sum.
 
-    * The function `riemann()` has to accept 6 arguments, in order `(a, b, c, d, e, n)`:
+    * The function `riemann()` has to accept 6 arguments, in order `(a, b, c, begin_x, end_x, n)`:
 
         - `a`, `b`, and `c`, the parameters of the quadratic equation
-        - `d` is the start of the integral area
-        - `e` is the end of the integral area
+        - `begin_x` is the start of the integral area
+        - `end_x` is the end of the integral area
         - `n` number of rectangles used to approximate the integral
 
-    * The function `riemann()` should plot the quadratic equation on the screen.
-
     * The function `riemann()` should `return` the approximate value of the integral.
+
+* Declare a function called `plot_riemann()` that can plot the Riemann sum.
+
+    * The function `plot_riemann()` has to accept the same 6 arguments as `riemann()`, `(a, b, c, begin_x, end_x, n)`
+
+    * The function should plot the quadratic equation on the screen.
+
+    * The function should plot the rectangles used in approximating the integral.
 
 * Your program should call the Riemann function to approximate the integral for several quadratic equations
 
@@ -43,7 +49,7 @@ $$\int_{-2}^3 (-x^2 + 4x + 15)~dx \approx 73.33$$
 $$\int_{-2}^3 (-x^2 - 8x + 8)~dx \approx 8.33$$
 
 Add these equations to your own program as functions and make sure to repeatedly call the
-`riemann()` function at the bottom of your file, to verify each of these
+functions `riemann()` and `plot_riemann()` at the bottom of your file, to verify each of these
 examples.
 
 ## Debugging

@@ -8,19 +8,23 @@ Write a function that, by way of the Monte Carlo method, calculates the integral
 
 * Declare a function called `montecarlo()` that can calculate integrals by using a Monte Carlo simulation.
 
-* The function `montecarlo()` should accept the following five arguments:
+	* The function `montecarlo()` should accept the following five arguments:
 
-	- `func` a function performing an equation of which the integral will be calculated
-	- `x1` the minimum x-value surrounding the integral area
-	- `y1` the minimum y-value surrounding the integral area
-	- `x2` the maximum x-value surrounding the integral area
-	- `y2` the maximum y-value surrounding the integral area
+		- `func` a function performing an equation of which the integral will be calculated
+		- `x1` the minimum x-value surrounding the integral area
+		- `y1` the minimum y-value surrounding the integral area
+		- `x2` the maximum x-value surrounding the integral area
+		- `y2` the maximum y-value surrounding the integral area
 
-	The arguments should be given in the same order as given above, so like this: `montecarlo(func, x1, y1, x2, y2)`
+		The arguments should be given in the same order as given above, so like this: `montecarlo(func, x1, y1, x2, y2)`
 
-* The function `montecarlo()` should `return` the area under the graph.
+	* The function `montecarlo()` should `return` the area under the graph.
 
-* The function `montecarlo()` should plot the equation and the points *within* the integral area (the 'correct' points) in green and the points *outside of* the integral area (the 'incorrect' points) in red.
+* Declare a function called `plot_montecarlo()` that can calculate integrals by using a Monte Carlo simulation.
+
+	* The function should accept the same parameters as `montecarlo()`: `(func, x1, y1, x2, y2)`
+
+	* The function should plot the equation and the points *within* the integral area (the 'correct' points) in green and the points *outside of* the integral area (the 'incorrect' points) in red.
 
 ## Functions as arguments
 
@@ -49,7 +53,7 @@ $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
 
 $$\int_{0}^{\pi} \sin(x^2) ~dx$$
 
-Add these equations as functions to your own program and make sure to call `montecarlo()` a number of times at the bottom of the file, to verify each of these examples.
+Add these equations as functions to your own program and make sure to call `montecarlo()` and `plot_montecarlo()` a number of times at the bottom of the file, to verify each of these examples.
 
 ## Hints
 

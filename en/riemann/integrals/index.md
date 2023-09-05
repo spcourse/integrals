@@ -33,7 +33,7 @@ quadratic equation should also be displayed on the screen.
 
     * The function should plot the rectangles used in approximating the integral.
 
-* Your program should call the Riemann function to approximate the integral for several quadratic equations
+* Your program should call both Riemann functions to approximate the integral for several quadratic equations
 
 ## Testing
 

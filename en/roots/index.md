@@ -20,9 +20,11 @@ results the function could `return`:
     * an empty list `[]` when the equation has no roots
     * a list of two elements `[n1, n2]` in which `n1` and `n2` are the roots of the equation
 
-* Your programs should then use this `roots()` function to calcuate the roots
-for $$f(x)=x^2+2x-10$$. Print out both roots, plot the equation and clearly
-display the roots in the graph that you calculated.
+* Your programs should then use this `roots()` function to calculate the roots
+for $$f(x)=x^2+2x-10$$. Print out both roots
+
+* Create a function `plot_roots(a, b, c)` that plot the equation and clearly
+display the roots in the graph that you calculate using the `roots()` function.
 
 ## Hints
 

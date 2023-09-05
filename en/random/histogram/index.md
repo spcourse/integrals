@@ -40,15 +40,29 @@ The result of the code is the histogram displayed below:
 
 ## Assignment: distribution of the sum of random numbers
 
-We've now seen that random numbers are properly generated uniformly between 0 and 1, but what about the distribution of the sum of 100 random numbers? When we do an 'experiment' in which we take the sum of 100 random numbers, the average of that sum would be 50 (since the average number is 0.5). But for an individual experiment it is rarely exactly 50. That leaves the question: how often is the sum less than 40? And is that just as likely as a sum of greater than 60?
+Investigate the distribution of the sum of 100 uniformly generated random numbers.
 
-Write a function `sum_random_numbers()` that displays the distribution of the sum of 100 random numbers from 10.000 experiments. Graph the results between x = 30 and x = 70.
+When we generate a random number uniformly between 0 and 1, its expected value is 0.5. If we take the sum of 100 such numbers in a single trial, the expected sum is 50. However, due to randomness, the sum won't always be precisely 50. This prompts two questions:
 
-Generate 100 random numbers for each 'experiment' and calculate the sum of those numbers. Repeat this 10.000 times and store the sum in a list for each of the experiments. In the end, plot those values in a frequency distribution (histogram). Also, `print` the percentage of the experiments in which the sum was less than 40 to the screen, as well as the percentage of experiments in which the sum was more than 60 to the screen.
+* How frequently does the sum fall below 40?
+* Is the occurrence of sums greater than 60 as common as those below 40?
 
-> Note: `print` the percentage < 40 on one line and the percentage > 60 on the next line. Do not only `print` the percentage, but also explain exactly what kind of number it is.
+### Instructions
 
+Create a file named `histogram.py`.
+Inside `histogram.py`, define a function named `sum_random_numbers`.
+In the `sum_random_numbers` function:
+
+1. Generate 100 random numbers and calculate their sum. This constitutes one 'experiment'.
+2. Repeat the experiment 10,000 times, storing each sum in a list.
+After the 10,000 experiments, display the following:
+3. A histogram of the sums, with an x-axis range of 30 to 70.
+4. Print the percentage of experiments where the sum was less than 40, clearly specifying what this percentage signifies.
+5. Print the percentage of experiments where the sum was more than 60, and articulate the significance of this number.
+6. Call your function within the file so it executes when `histogram.py` is run.
+
+Constraints: Use the `random` library to generate random numbers and `matplotlib` for visualization.
 
 ## Testing
 
-	checkpy histogram
+    checkpy histogram

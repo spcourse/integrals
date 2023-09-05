@@ -36,10 +36,24 @@ integrated an argument of the integration function.
 
 ## Testing
 
+Test your code with the following function:
+
+		def func1(x):
+			return sin(x**2)
+		print(montecarlo(x, 0, -1, math.pi, 1))
+		plot_montecarlo(0, -1, math.pi, 1)
+
+Should give the following outputs:
+
+		0.77
+
+![example output](sinsquare.png)
+
+
 Test your procedure using the following function, which should be easy to verify:
 
-	def func1(x):
-		return 2*x
+		def func2(x):
+			return 2*x
 
 Also test your program with the following equations. Some can even only be numerically approximated, and have no analytical solution.
 
@@ -54,6 +68,7 @@ $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
 $$\int_{0}^{\pi} \sin(x^2) ~dx$$
 
 Add these equations as functions to your own program and make sure to call `montecarlo()` and `plot_montecarlo()` a number of times at the bottom of the file, to verify each of these examples.
+
 
 ## Hints
 

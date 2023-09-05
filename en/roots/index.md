@@ -26,6 +26,8 @@ for $$f(x)=x^2+2x-10$$. Print out both roots
 * Create a function `plot_roots(a, b, c)` that plot the equation and clearly
 display the roots in the graph that you calculate using the `roots()` function.
 
+> Tip: you can draw a horizontal line with the function `plt.axhline(0, color='red', linestyle='--')`
+
 ## Hints
 
 * Calculate the roots with use of the [quadratic formula](https://en.wikipedia.org/wiki/Quadratic_formula).

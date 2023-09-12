@@ -2,6 +2,33 @@
 
 Write a function that, by way of the Monte Carlo method, calculates the integral of any mathematical equation with specified integral boundaries. Take care that both the equation and the generated random points (both the 'correct' and 'incorrect' ones) are displayed on the screen.
 
+
+## Specification
+
+* Create a new file called `montecarlo.py`.
+
+* Declare a function called `montecarlo()` that can calculate integrals by using a Monte Carlo simulation.
+
+	* The function `montecarlo()` should accept the following five arguments:
+
+		- `func` a function performing an equation of which the integral will be calculated
+		- `x1` the minimum x-value surrounding the integral area
+		- `y1` the minimum y-value surrounding the integral area
+		- `x2` the maximum x-value surrounding the integral area
+		- `y2` the maximum y-value surrounding the integral area
+
+		The arguments should be given in the same order as given above, so like this: `montecarlo(func, x1, y1, x2, y2)`
+
+	* The function `montecarlo()` should `return` the area under the graph.
+
+* Declare a function called `plot_montecarlo()` that can plot integrals by using a Monte Carlo simulation.
+
+	* The function should accept the same parameters as `montecarlo()`: `(func, x1, y1, x2, y2)`
+
+	* The function should plot the equation and the points *within* the integral area (the 'correct' points) in green and the points *outside of* the integral area (the 'incorrect' points) in red.
+
+> **Hint:** If you are finding it hard to get started with the `montecarlo()` function, or that function is not giving the correct output, then move on to the `plot_montecarlo()` function first! Plotting random points inside the integral area green and others red is a very useful visual debugging tool. Spotting mistakes in the plotted function will be *a lot* easier than figuring out why an incorrect integral approximation is returned by the computation function.
+
 ## Specification
 
 * Create a new file called `montecarlo.py`.

@@ -27,7 +27,7 @@ Write a function that, by way of the Monte Carlo method, calculates the integral
 
 	* The function should plot the equation and the points *within* the integral area (the 'correct' points) in green and the points *outside of* the integral area (the 'incorrect' points) in red.
 
-> **Hint:** If you are finding it hard to get started with the `montecarlo()` function or the function is not giving the correct output, then move on and write the `plot_montecarlo()` function *first*! Plotting random points inside the integral area green and others red will be a very useful visual debugging tool, and spotting mistakes in the plotted function is *a lot* easier than figuring out why an incorrect integral approximation is returned by the computation function.
+> **Hint:** If you are finding it hard to get started with the `montecarlo()` function or the function is not giving the correct output, then move on and write the `plot_montecarlo()` function *first*! Plotting the random points inside the integral area green and the other points red will be a very useful visual debugging tool, and spotting mistakes in the plotted function is *a lot* easier than figuring out why an incorrect integral approximation is returned by the computation function.
 
 ## Functions as arguments
 

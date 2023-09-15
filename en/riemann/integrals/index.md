@@ -27,7 +27,7 @@ quadratic equation should also be displayed on the screen.
 
 * Declare a function called `plot_riemann()` that can plot the Riemann sum.
 
-    * The function `plot_riemann()` has to accept the same arguments as the first 5 arguments of `riemann()`, so `(a, b, c, begin_x, end_x)`
+    * The function `plot_riemann()` has to accept the same arguments as `riemann()`, so `(a, b, c, begin_x, end_x, n)`
 
     * The function should plot the quadratic equation on the screen.
 

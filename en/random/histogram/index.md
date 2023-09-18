@@ -13,22 +13,22 @@ The idea of generating random numbers is that the random numbers are uniformly d
 
 Below you'll find a small program that generates 10.000 random numbers and stores each random number in a list. When the command `plt.hist()` is given, we specify that we'd like to see the frequency of numbers in ranges of 0.02 (50 bins between the minimum expected value of 0.00 and maximum expected value of 1.00).
 
-  import random
-  import matplotlib.pyplot as plt
+    import random
+    import matplotlib.pyplot as plt
 
-  # list of random numbers
-  random_numbers = []
+    # list of random numbers
+    random_numbers = []
 
-  # generate 10.000 random numbers
-  n = 10000
-  for counter in range(n):
-      number = random.random()          
-      random_numbers.append(number)
+    # generate 10.000 random numbers
+    n = 10000
+    for counter in range(n):
+        number = random.random()          
+        random_numbers.append(number)
 
-  # plot the frequency distribution (50 bins)
-  plt.xlim(-0.1, 1.1)
-  plt.hist(random_numbers, bins=50, edgecolor='black')
-  plt.show()
+    # plot the frequency distribution (50 bins)
+    plt.xlim(-0.1, 1.1)
+    plt.hist(random_numbers, bins=50, edgecolor='black')
+    plt.show()
 
 In Python you can use the option `plt.hist()` to group data before showing it with `plt.show()`. When grouping data together, give some thought to how many bins you want to use to divide your data.
 

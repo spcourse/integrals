@@ -25,10 +25,10 @@ Below you'll find a small program that generates 10.000 random numbers and store
         number = random.random()          
         random_numbers.append(number)
 
-     # plot the frequency distribution (50 bins)
-     plt.xlim(-0.1, 1.1)
-     plt.hist(random_numbers, bins=50)
-     plt.show()
+    # plot the frequency distribution (50 bins)
+    plt.xlim(-0.1, 1.1)
+    plt.hist(random_numbers, bins=50, edgecolor='black')
+    plt.show()
 
 In Python you can use the option `plt.hist()` to group data before showing it with `plt.show()`. When grouping data together, give some thought to how many bins you want to use to divide your data.
 

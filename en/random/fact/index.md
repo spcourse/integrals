@@ -14,7 +14,7 @@ Use the following strategy:
 
 *   Create a new file called `randommaths.py`.
 
-*   Declare a function called `random_maths()`, which takes no parameters, that determines the average number of random numbers that need to be generated for the sum of those numbers to be greater than 1.00.
+*   Declare a function called `random_math()`, which takes no parameters, that determines the average number of random numbers that need to be generated for the sum of those numbers to be greater than 1.00.
 
 *   The output on the screen (4 decimals precise) should look like this:
 

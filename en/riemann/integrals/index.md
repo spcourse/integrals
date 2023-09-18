@@ -27,11 +27,9 @@ quadratic equation should also be displayed on the screen.
 
 * Declare a function called `plot_riemann()` that can plot the Riemann sum.
 
-    * The function `plot_riemann()` has to accept the same 6 arguments as `riemann()`, `(a, b, c, begin_x, end_x, n)`
+    * The function `plot_riemann()` has to accept the same arguments as `riemann()`, so `(a, b, c, begin_x, end_x, n)`
 
     * The function should plot the quadratic equation on the screen.
-
-    * The function should plot the rectangles used in approximating the integral.
 
 * Your program should call both Riemann functions to approximate the integral for several quadratic equations
 

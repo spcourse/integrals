@@ -43,8 +43,8 @@ Test your code with the following function:
 
 		def func1(x):
 			return sin(x**2)
-		print(montecarlo(x, 0, -1, math.pi, 1))
-		plot_montecarlo(0, -1, math.pi, 1)
+		print(montecarlo(func, 0, -1, math.pi, 1))
+		plot_montecarlo(func, 0, -1, math.pi, 1)
 
 Which should give the following outputs:
 

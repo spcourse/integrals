@@ -57,8 +57,14 @@ In the `sum_random_numbers` function:
 2. Repeat the experiment 10,000 times, storing each sum in a list.
 After the 10,000 experiments, display the following:
 3. A histogram of the sums, with an x-axis range of 30 to 70.
-4. Print the percentage of experiments where the sum was less than 40, clearly specifying what this percentage signifies.
-5. Print the percentage of experiments where the sum was more than 60, and articulate the significance of this number.
+4. Print the percentage of experiments where the sum was less than 40, clearly specifying what this percentage signifies:
+
+    The percentage of experiments with a sum lower than 40 is: xx.xxxx%
+
+5. Print the percentage of experiments where the sum was more than 60, and articulate the significance of this number:
+
+    The percentage of experiments with a sum higher than 60 is: xx.xxxx%
+
 6. Call your function within the file so it executes when `histogram.py` is run.
 
 Constraints: Use the `random` library to generate random numbers and `matplotlib` for visualization.

@@ -65,9 +65,9 @@ The percentage of experiments with a sum lower than 40 is: xx.xxxx%
 
 5. Print the percentage of experiments where the sum was more than 60, and articulate the significance of this number:
 
-```
-The percentage of experiments with a sum higher than 60 is: xx.xxxx%
-```
+
+        The percentage of experiments with a sum higher than 60 is: xx.xxxx%
+
 
 6. Call your function within the file so it executes when `histogram.py` is run.
 

@@ -33,10 +33,6 @@ quadratic equation should also be displayed on the screen.
 
 * Your program should call both Riemann functions to approximate the integral for several quadratic equations
 
-### Challenge
-
-_As an extra challenge, you can also add the rectangles you use to calculate the area to your plot!_ This is not a required part of the exercise.
-
 ## Testing
 
 First, test your program on some integrals for which you know the correct
@@ -66,3 +62,7 @@ Does there appear to be some error or bug?
 Once you have convinced yourself it works, you can use checkpy to run some automatic tests.
 
 	checkpy riemann
+
+## Challenge
+
+As an extra challenge, you can also add the rectangles you use to calculate the area to your plot! **This is not a required part of the assignment.**

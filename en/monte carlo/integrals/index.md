@@ -89,3 +89,7 @@ Add these equations as functions to your own program and make sure to call `mont
 ## Testing
 
 	checkpy montecarlo
+
+## Challenge
+
+You might have noticed that your functions have a lot of duplicate code. Can you find a way to reduce the amount of duplicate code by introducing a series of helper functions? **This is not a required part of the assignment.** If you have not finished the other parts in the module, or are otherwise behind schedule, skip this challenge!

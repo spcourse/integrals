@@ -27,7 +27,7 @@ quadratic equation should also be displayed on the screen.
 
 * Declare a function called `plot_riemann()` that can plot the Riemann sum.
 
-    * The function `plot_riemann()` has to accept the same arguments as `riemann()`, so `(a, b, c, begin_x, end_x, n)`
+    * The function `plot_riemann()` has to accept the same arguments as `riemann()`, so `(a, b, c, begin_x, end_x, n)`. You will not need `n` unless you do the extra challenge!
 
     * The function should plot the quadratic equation on the screen.
 
@@ -62,3 +62,7 @@ Does there appear to be some error or bug?
 Once you have convinced yourself it works, you can use checkpy to run some automatic tests.
 
 	checkpy riemann
+
+## Challenge
+
+As an extra challenge, you can also add the rectangles you use to calculate the area to your plot! **This is not a required part of the assignment.**

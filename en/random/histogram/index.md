@@ -6,8 +6,7 @@ Write a program that visualizes the distribution of numbers from the `random()`-
 
 Plotting a graph of a function, like in the last module, is one of the many ways of visualizing data. This is not always the most obvious strategy, however. When the Volkskrant, for example, makes a graph of how tall the Dutch people are, they use a so-called `histogram` (also known as a bar chart or frequency distribution) in which the data gets grouped together. People, for instance, would be grouped together in percentages of people with lengths ranging from 165-170, 170-175, and so on. This way to represent data also gives some insight in how different groups relate.
 
-
-## Example: 10.000 random numbers
+## Example: 100.000 random numbers
 
 The idea of generating random numbers is that the random numbers are uniformly distributed between 0 and 1. To get an impression of whether the distribution really is 'flat' we could generate 10.000 random numbers and check each values' frequency.
 
@@ -19,8 +18,8 @@ Below you'll find a small program that generates 10.000 random numbers and store
     # list of random numbers
     random_numbers = []
 
-    # generate 10.000 random numbers
-    n = 10000
+    # generate 100.000 random numbers
+    n = 100000
     for counter in range(n):
         number = random.random()          
         random_numbers.append(number)
@@ -44,8 +43,8 @@ Investigate the distribution of the sum of 100 uniformly generated random number
 
 When we generate a random number uniformly between 0 and 1, its expected value is 0.5. If we take the sum of 100 such numbers in a single trial, the expected sum is 50. However, due to randomness, the sum won't always be precisely 50. This prompts two questions:
 
-* How frequently does the sum fall below 40?
-* Is the occurrence of sums greater than 60 as common as those below 40?
+* How frequently does the sum fall below 42?
+* Is the occurrence of sums greater than 58 as common as those below 42?
 
 ### Instructions
 
@@ -54,18 +53,16 @@ Inside `histogram.py`, define a function named `sum_random_numbers`.
 In the `sum_random_numbers` function:
 
 1. Generate 100 random numbers and calculate their sum. This constitutes one 'experiment'.
-2. Repeat the experiment 10,000 times, storing each sum in a list.
-After the 10,000 experiments, display the following:
+2. Repeat the experiment 100,000 times, storing each sum in a list.
+After the 100,000 experiments, display the following:
 3. A histogram of the sums, with an x-axis range of 30 to 70.
-4. Print the percentage of experiments where the sum was less than 40, clearly specifying what this percentage signifies:
+4. Print the percentage of experiments where the sum was less than 42, clearly specifying what this percentage signifies:
 
-        The percentage of experiments with a sum lower than 40 is: xx.xxxx%
+        The percentage of experiments with a sum lower than 42 is: xx.xxxx%
 
-5. Print the percentage of experiments where the sum was more than 60, and articulate the significance of this number:
+5. Print the percentage of experiments where the sum was more than 58, and articulate the significance of this number:
 
-
-        The percentage of experiments with a sum higher than 60 is: xx.xxxx%
-
+        The percentage of experiments with a sum higher than 58 is: xx.xxxx%
 
 6. Call your function within the file so it executes when `histogram.py` is run.
 

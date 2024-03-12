@@ -54,9 +54,9 @@ In the `sum_random_numbers` function:
 
 1. Generate 100 random numbers and calculate their sum. This constitutes one 'experiment'.
 2. Repeat the experiment 100,000 times, storing each sum in a list.
-After the 100,000 experiments, display the following:
-3. A histogram of the sums, with an x-axis range of 30 to 70.
-4. Print the percentage of experiments where the sum was less than 42, clearly specifying what this percentage signifies:
+After the 100,000 experiments, do the following:
+3. Display a histogram of the sums, with an x-axis range of 30 to 70.
+4. Print the percentage of experiments where the sum was less than 42, *clearly* specifying what this percentage signifies:
 
         The percentage of experiments with a sum lower than 42 is: xx.xxxx%
 

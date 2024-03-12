@@ -10,7 +10,7 @@ Plotting a graph of a function, like in the last module, is one of the many ways
 
 The idea of generating random numbers is that the random numbers are uniformly distributed between 0 and 1. To get an impression of whether the distribution really is 'flat' we could generate 100.000 random numbers and check each values' frequency.
 
-Below you'll find a small program that generates 100.000 random numbers and stores each random number in a list. When the command `plt.hist()` is given, we specify that we'd like to see the frequency of numbers in ranges of 0.02 (50 bins between the minimum expected value of 0.00 and maximum expected value of 1.00).
+Below you'll find a small program that generates 100.000 random numbers and stores each random number in a list. When the command `plt.hist()` is given, we specify that we'd like to see the frequency of numbers in steps of 0.02 (50 bins between the minimum expected value of 0.00 and maximum expected value of 1.00).
 
     import random
     import matplotlib.pyplot as plt

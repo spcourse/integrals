@@ -14,11 +14,11 @@ an equation intersects the x-axis) of the quadratic equation $$f(x)=x^2+2x-10$$.
 * Call your program `roots.py`.
 
 * Create one function `roots(a, b, c)` that can calculate the roots of *any*
-quadratic equation of the form $$f(x)=ax^2+bx+c$$. (**check the hints!**) There are two possible
+quadratic equation of the form $$f(x)=ax^2+bx+c$$. (**check the hints below!**) There are two possible
 results the function could `return`:
 
     * an empty list `[]` when the equation has no roots
-    * a list of two elements `[n1, n2]` in which `n1` and `n2` are the roots of the equation (these two elements could be the same!)
+    * a list of two elements `[n1, n2]` in which `n1` and `n2` are the roots of the equation (these two elements could be the exact same in one case!)
 
 * Your programs should then use this `roots()` function to calculate the roots
 for $$f(x)=x^2+2x-10$$. Print out both roots
@@ -28,7 +28,7 @@ display the roots in the graph that you calculate using the `roots()` function.
 
 ## Hints
 
-* You can draw a horizontal line with the function `plt.axhline(0, color='red', linestyle='--')`
+* You can draw a horizontal line with the function `plt.axhline(0, color='red', linestyle='--')`.
 
 * Calculate the roots with use of the [quadratic formula](https://en.wikipedia.org/wiki/Quadratic_formula).
 
@@ -42,8 +42,6 @@ display the roots in the graph that you calculate using the `roots()` function.
 * Later on, also test your program with a quadratic equation that has no roots (check if the list is empty). The program should print that the roots do not exist:
 
         This equation does not have roots.
-
-
 
 ## Testing
 

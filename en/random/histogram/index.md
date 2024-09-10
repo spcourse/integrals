@@ -6,11 +6,11 @@ Write a program that visualizes the distribution of numbers from the `random()`-
 
 Plotting a graph of a function, like in the last module, is one of the many ways of visualizing data. This is not always the most obvious strategy, however. When the Volkskrant, for example, makes a graph of how tall the Dutch people are, they use a so-called `histogram` (also known as a bar chart or frequency distribution) in which the data gets grouped together. People, for instance, would be grouped together in percentages of people with lengths ranging from 165-170, 170-175, and so on. This way to represent data also gives some insight in how different groups relate.
 
-## Example: 100.000 random numbers
+## Example: 10.000 random numbers
 
 The idea of generating random numbers is that the random numbers are uniformly distributed between 0 and 1. To get an impression of whether the distribution really is 'flat' we could generate 100.000 random numbers and check each values' frequency.
 
-Below you'll find a small program that generates 100.000 random numbers and stores each random number in a list. When the command `plt.hist()` is given, we specify that we'd like to see the frequency of numbers in steps of 0.02 (50 bins between the minimum expected value of 0.00 and maximum expected value of 1.00).
+Below you'll find a small program that generates 10.000 random numbers and stores each random number in a list. When the command `plt.hist()` is given, we specify that we'd like to see the frequency of numbers in steps of 0.02 (50 bins between the minimum expected value of 0.00 and maximum expected value of 1.00).
 
     import random
     import matplotlib.pyplot as plt
@@ -18,8 +18,8 @@ Below you'll find a small program that generates 100.000 random numbers and stor
     # list of random numbers
     random_numbers = []
 
-    # generate 100.000 random numbers
-    n = 100000
+    # generate 10.000 random numbers
+    n = 10000
     for counter in range(n):
         number = random.random()          
         random_numbers.append(number)

@@ -113,7 +113,7 @@ $$\int_{d}^e f(x)~dx \approx \sum_{i=0}^{N-1} \Delta x~ f(d +\Delta x(i +
 
 which is the midpoint Riemann sum approximation. Repeated in more detail:
 
-- $$\int_{d}^e f(x)~dx$$ is the mathematical definition of the area under the function $$f$$ betweeen $$d$$ and $$e$$. The $$dx$$
+- $$\int_{d}^e f(x)~dx$$ is the mathematical definition of the area under the function $$f$$ between $$d$$ and $$e$$. The $$dx$$
 indicates that $$x$$ is the variable we are integrating over.
 - $$\approx$$ which is approximated by
 - $$\sum_{i=0}^{N-1} \Delta x~ f(d +\Delta x(i + \frac{1}{2}))$$ the sum of the areas of all $$N$$ rectangles, where $$i$$ defines the i-th rectangle
